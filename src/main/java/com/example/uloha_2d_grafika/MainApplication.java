@@ -8,7 +8,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
-public class HelloApplication extends Application {
+public class MainApplication extends Application {
     public static final int SCREEN_WIDTH = 1900;
     public static final int SCREEN_HEIGHT = 920;
 
@@ -26,6 +26,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Klasifikovaná úloha");
         stage.show();
     }
+
     public static void main(String[] args) {
         launch();
     }
