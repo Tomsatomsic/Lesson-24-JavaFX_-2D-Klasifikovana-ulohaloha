@@ -8,6 +8,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.util.Random;
@@ -136,6 +137,7 @@ public class MainApplication extends Application {
             mouseY = 0;
         }
         imgpocitadlo++;
+        graphicsContext.setFill(Color.GREENYELLOW);
     }
 
     private void clearScreen() {
